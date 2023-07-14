@@ -5,6 +5,45 @@
         display: block;
     }
 }
+@media screen and (max-width:540px) {
+    .contenedor{
+        flex-direction: column;
+    }
+
+    .box{
+        padding: 1rem;
+    }
+    .contenedornoticias{
+        flex-direction: column;
+    }
+    .video{
+        padding: 1rem;
+    }
+    p{
+        text-indent: 2px;
+        line-height: 85%;
+    }
+}
+@media screen and (min-width:541px) and (max-width:768px) {
+    .contenedor{
+        flex-direction: column;
+    }
+
+    .box{
+        padding: 2rem;
+    }
+    .contenedornoticias{
+        flex-direction: column;
+    }
+    .video{
+        padding: 1rem;
+    }
+    p{
+        text-indent: 4px;
+        line-height: 100%;
+    }
+}
+
 a{
     font-family: 'arial';
 }
@@ -14,7 +53,7 @@ header{
     z-index: 10;
 }
 main{
-    margin-top: 10px;
+    margin-top: 0,8rem;
     background-color: #eff5f5;
 }
 .navbar{
@@ -22,35 +61,37 @@ main{
     width: 100%; 
     background-color: #1F8A70;
 }
-.navbar a {
-    align-items: center;
-    display: block;
-    color: #00425a;
-    text-align: center;
-    padding: 14px 16px;
-  }
-.navbar a:hover {
-    background: #eff5f5;
-    color: #00425a;
-  }
-
 .menu-centrado{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.baner {
-   padding-top: 50px;
-    height: 500px;
-    text-align: right;
-    background-image: url('/images/baner31.jpg');
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: cover;
-}
+.navbar a {
+    align-items: center;
+    display: block;
+    color: #00425a;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+  }
 
-.blur{
-    filter: blur(1.5px);
+.navbar a:hover {
+    background: #eff5f5;
+    color: #00425a;
+  }
+
+
+.baner {
+    padding-top: 5rem;
+    height: 35rem;
+    text-align: right;
+    align-items: baseline;
+    background-image: url('/images/baner2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .contenedor{
@@ -81,18 +122,21 @@ main{
     align-items: center;
     padding: 5px 80px 150px 80px;
     border-width: 2px;
-    margin-top: 50px;
+    margin-top: 2rem;
 }
 h1 {
     font-family: 'Shadows Into Light', cursive;
     letter-spacing: 12px;
     display: inline;
     color: #00425a;
+    font-size: 4rem;
+    position: bottom;
 }
 
 h2 {
     text-shadow: 1px 2px 2px black;
     font-family: 'oswald';
+    font-size: 2rem
 }
 h3{
     font-family: 'oswald';
@@ -104,22 +148,32 @@ h6{
 p{
     font-family: 'arial';
     letter-spacing: 2px;
+    text-indent: 20px;
+    line-height: 150%;
 }
 .pfooter{
     font-family: 'arial';
 }
 
-p{
-    text-indent: 20px;
-    line-height: 150%;
+.pbaner{
+    font-size: 1.7rem;
+    font-style: italic;
 }
 form{
     background-color: #eff5f5;
     font-family: arial;
+ 
 }
-.borde{
+
+#bordeform{
+    margin: 2rem;
+    padding: 0;
+    display: grid;
+    place-content: center;
+    width: 35rem;
+    height: 50rem;
+    box-shadow: 4px 4px 8px #fc7300;
+    border: 1px solid #fc7300;
     border-style: solid;
-    border-width: 10px;
-    border-color: #fc7300;
-    border-radius: 10px;
+    z-index: 10;
 }
