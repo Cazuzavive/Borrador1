@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Instituto de Educacion primaria que incorpora tecnicas de aprendizaje tipo Waldrof y constructivista. El mejor para la educacion de tus hijos">
     <meta name="author" content="Fiorella Di Claudio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yesnmp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,7 +14,7 @@
    
         <header>
             
-            <nav class="navbar navbar-expand-lg bg-body-tertiary; navbar-header navbar-collapse">
+            <nav class="navbar navbar-expand-lg navbar-header navbar-collapse ticky-top">
                 <div class="container-fluid">
                   <a class="navbar-brand" href="index.html">Instituto Untref</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,13 +45,13 @@
                 <h1>Instituto Untref</h1>
                 <p>La mejor educacion para tus hijos</p>
             </section>
-            <section class="container">
+            <section class="container bgcolor" id="aboutus">
                 <div class="contenedor">
                   <div class="box">
                     <img src="images/quienes-somos.jpeg" alt="" width="300" height="300">
                   </div>
                   <div class="box">
-                    <h2  id="aboutus"> ¿Quienes somos? </h2>
+                    <h2> ¿Quienes somos? </h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa obcaecati iure nesciunt voluptates temporibus laborum cupiditate, quaerat voluptatem soluta reprehenderit non et minima numquam sint, beatae vel rem vitae? Molestias! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente nostrum recusandae laborum harum suscipit sit itaque voluptas et minima repellendus labore nihil id, nam adipisci ab cumque omnis quisquam aliquam!
                     Voluptatum sunt, quae vel in dignissimos sint deleniti cum. Natus eveniet officiis, deserunt amet, expedita at nemo sapiente omnis perspiciatis autem, repellat vel a quasi. Quae ipsam repellendus praesentium totam.
                     rem adipisci totam, doloribus ipsa dolores nostrum accusantium aspernatur veritatis repellat quas. Voluptas, cum nesciunt?</p>
@@ -69,12 +69,12 @@
                       </div>
                 </div>
             </section>
-            <section class="container">
+            <section class="container" id="propuesta">
               <div class="box">
-                <h2 id="propuesta"> Propuesta educativa </h2>
+                <h2> Propuesta educativa </h2>
                 <div class="contenedor">
                   <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="images/libertad.jpg" alt="Libertad"height="300px" width="300px">
+                    <img class="card-img-top" src="images/libertad.jpg" alt="Libertad" height="300px" width="300px">
                     <div class="card-body">
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
@@ -100,18 +100,18 @@
                 </div>
               </div>      
             </section>
-            <section class="container">
+            <section class="container"  id="noticias">
               <div class="box"> 
-                <h2 id="noticias">Ultimas noticias</h2>
+                <h2>Ultimas noticias</h2>
                 <div class="contenedornoticias">
-                    <article class="boxnoticias">
+                    <article>
                         <h3>Lorem ipsum</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, libero fugit dolorem consequuntur voluptatem quia adipisci. Nostrum dolore enim vero aliquid velit cum, totam molestias voluptatum ut eius necessitatibus dicta.
                     Nobis beatae praesentium excepturi molestias, qui quia numquam, voluptatem asperiores sed rem eligendi ipsa dignissimos pariatur magni dicta ducimus inventore quibusdam nihil minus ex? Maxime omnis rerum delectus? Recusandae, eaque.
                     Quaerat ipsa expedita error fugiat magnam beatae natus, libero quos amet similique voluptatibus ullam voluptatem ipsam culpa modi dolore assumenda dignissimos rerum quis asperiores repudiandae debitis necessitatibus optio. Laudantium, accusamus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dicta a quibusdam dignissimos eius perferendis fuga repellat iure nostrum quia iste ad nihil, ut deserunt mollitia! Amet quod molestiae mollitia.</p>
                     </article>
                     
-                    <article class="boxnoticias">
+                    <article>
                         <h3>Dolor sit</h3>
                         <p> Dolom ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus magni rerum id, dolorem nisi cupiditate nostrum esse quisquam fugit dicta at tempore? At, voluptatem! Inventore voluptatum doloremque molestias vero expedita.
                         Possimus, laboriosam in atque unde, dignissimos accusamus facilis autem, ipsa optio porro explicabo accusantium sapiente? Itaque quaerat exercitationem consequuntur deserunt iusto dolorum, aperiam repellendus, omnis magnam nisi eveniet numquam necessitatibus.
@@ -126,117 +126,58 @@
         </main>
 
         <footer class="text-center text-lg-start bg-light text-muted">
-            <!-- Section: Social media -->
-            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
-            <!-- Left -->
-            <div class="me-5 d-none d-lg-block">
-                <span>Seguinos en nuestras redes</span>
+         
+          <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block ">
+                <span class="pfooter">Seguinos en nuestras redes</span>
             </div>
-            <!-- Left -->
-        
-            <!-- Right -->
-            <div>
-                <a href="" class="me-4 text-reset">
-                <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                <i class="fab fa-twitter"></i>
-                </a>
-                <a href="" class="me-4 text-reset">
-                <i class="fab fa-linkedin"></i>
-                </a>
+          </section>
+           
+            <section>
+              
+            </section>
+            <section>
+                <div class="container text-center text-md-start mt-5">                    
+                    <div class="row mt-3">
+                      <div class="row-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <a href="images/facebook.svg" class="me-4 link-secondary">
+                          <img src="images/ifb.svg" alt="facebook" />
+                        </a>
+                        <a href="" class="me-4 link-secondary">
+                          <img src="images/itwitter.svg" alt="twitter" />
+                        </a>
+                        <a href="" class="me-4 link-secondary">
+                          <img src="images/ilinkedin.svg" alt="linkedin" />
+                        </a>
+                      </div>
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                          
+                            <h6 class="pfooter fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>Instituto Untref
+                            </h6>
+                            <p class="pfooter">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, autem. Voluptates modi laboriosam dolorum neque iusto facilis autem.
+                            </p>
+                        </div>
+                      
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="pfooter fw-bold mb-4">Contacto</h6>
+                            <p><img src="images/ihome.svg" alt="home" /> Bolivar, 6550, Arg</p>
+                            <p><img src="images/imail.svg" alt="E-mail" />  iuntref@gmail.com</p>
+                            <p><img src="images/iphone.svg" alt="phone" /> + 594 2314 425673</p>
+                            <p><img src="images/ifax.svg" alt="fax" /> + 594 2314 425673</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             
-            </div>
-            <!-- Right -->
-            </section>
-            <!-- Section: Social media -->
-        
-            <!-- Section: Links  -->
-            <section class="">
-            <div class="container text-center text-md-start mt-5">
-                <!-- Grid row -->
-                <div class="row mt-3">
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                    <!-- Content -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                    <i class="fas fa-gem me-3"></i>Company name
-                    </h6>
-                    <p>
-                    Here you can use rows and columns to organize your footer content. Lorem ipsum
-                    dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                    Products
-                    </h6>
-                    <p>
-                    <a href="#!" class="text-reset">Angular</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">React</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Vue</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Laravel</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">
-                    Useful links
-                    </h6>
-                    <p>
-                    <a href="#!" class="text-reset">Pricing</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Settings</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Orders</a>
-                    </p>
-                    <p>
-                    <a href="#!" class="text-reset">Help</a>
-                    </p>
-                </div>
-                <!-- Grid column -->
-        
-                <!-- Grid column -->
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                    <!-- Links -->
-                    <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                    <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
-                    <p>
-                    <i class="fas fa-envelope me-3"></i>
-                    info@example.com
-                    </p>
-                    <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
-                    <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
-                </div>
-                <!-- Grid column -->
-                </div>
-                <!-- Grid row -->
-            </div>
-            </section>
-            <!-- Section: Links  -->
-        
-            <!-- Copyright -->
-            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            <div class="text-center p-4 bgcolor" style="background-color: rgba(0, 0, 0, 0.05);">
             © 2021 Copyright:
             <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
             </div>
-            <!-- Copyright -->
         </footer>
+        
+        
   
 </body>
 </html>
