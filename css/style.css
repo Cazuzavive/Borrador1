@@ -168,11 +168,12 @@ form{
 
 .contenedorform{
     margin: 2rem;
-    padding: 0;
+    padding: 2rem;
     display: flex;
+    flex-direction: column;
     place-content: center;
-    width: 35rem;
-    height: 50rem;
+    width: 50rem;
+    height: 40rem;
     box-shadow: 4px 4px 8px #fc7300;
     border: 1px solid #fc7300;
     border-style: solid;
